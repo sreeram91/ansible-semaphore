@@ -1,0 +1,9 @@
+#to ping rockylinux
+---
+ - name: "to ping and test rockylinux connection"
+   hosts: rockylinux
+   
+   tasks:
+    - name: "ping test on rockylinux"
+      ping:
+
